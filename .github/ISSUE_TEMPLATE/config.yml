@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/epti-dev/bc-pytorch/discussions
+    about: Preguntas generales, ayuda y discusiones sobre el bootcamp
+  
+  - name: 📚 Documentación
+    url: https://github.com/epti-dev/bc-pytorch/blob/main/README.md
+    about: Lee la documentación completa del proyecto
+  
+  - name: 🤝 Guía de Contribución
+    url: https://github.com/epti-dev/bc-pytorch/blob/main/CONTRIBUTING.md
+    about: Aprende cómo contribuir al proyecto
+  
+  - name: 🔒 Reportar Vulnerabilidad de Seguridad
+    url: https://github.com/epti-dev/bc-pytorch/security/advisories/new
+    about: Reporta vulnerabilidades de seguridad de forma privada

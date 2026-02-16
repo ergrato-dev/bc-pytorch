@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_backup
+
+# Cache
+.cache/
+*.egg-info/
+
+# Data (para no copiar al build)
+data/
+checkpoints/
+*.pth
+*.pt
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Solution folders
+solution/

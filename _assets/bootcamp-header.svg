@@ -1,0 +1,112 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#1a1a2e"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="150" r="80" fill="#16213e" opacity="0.5"/>
+  <circle cx="1100" cy="150" r="80" fill="#16213e" opacity="0.5"/>
+  
+  <!-- PyTorch Icon Inspired -->
+  <g transform="translate(80, 120)">
+    <!-- Flame symbol -->
+    <path d="M 20 60 Q 20 40 30 30 Q 35 25 40 30 Q 40 20 50 15 Q 55 20 55 30 Q 60 25 65 30 Q 75 40 75 60 Q 75 75 62.5 82.5 Q 50 90 37.5 82.5 Q 25 75 25 60 Z" 
+          fill="#EE4C2C" 
+          stroke="#EE4C2C" 
+          stroke-width="2"/>
+    <circle cx="47.5" cy="55" r="8" fill="#1a1a2e"/>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="600" y="110" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-size="56" 
+        font-weight="bold" 
+        fill="#ffffff" 
+        text-anchor="middle">
+    BOOTCAMP PYTORCH
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="155" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-size="28" 
+        font-weight="300" 
+        fill="#EE4C2C" 
+        text-anchor="middle">
+    Zero to Hero en 24 Semanas
+  </text>
+  
+  <!-- Tagline -->
+  <text x="600" y="195" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-size="18" 
+        font-weight="400" 
+        fill="#a8a8a8" 
+        text-anchor="middle">
+    De Fundamentos Python a Deep Learning en Producción
+  </text>
+  
+  <!-- Tech Stack Pills -->
+  <g transform="translate(350, 220)">
+    <!-- Python -->
+    <rect x="0" y="0" width="90" height="30" rx="15" fill="#16213e"/>
+    <text x="45" y="20" 
+          font-family="Arial, Helvetica, sans-serif" 
+          font-size="14" 
+          font-weight="600" 
+          fill="#ffffff" 
+          text-anchor="middle">
+      Python 3.11+
+    </text>
+    
+    <!-- PyTorch -->
+    <rect x="105" y="0" width="90" height="30" rx="15" fill="#EE4C2C"/>
+    <text x="150" y="20" 
+          font-family="Arial, Helvetica, sans-serif" 
+          font-size="14" 
+          font-weight="600" 
+          fill="#ffffff" 
+          text-anchor="middle">
+      PyTorch 2.0+
+    </text>
+    
+    <!-- Docker -->
+    <rect x="210" y="0" width="70" height="30" rx="15" fill="#16213e"/>
+    <text x="245" y="20" 
+          font-family="Arial, Helvetica, sans-serif" 
+          font-size="14" 
+          font-weight="600" 
+          fill="#ffffff" 
+          text-anchor="middle">
+      Docker
+    </text>
+    
+    <!-- Hours -->
+    <rect x="295" y="0" width="70" height="30" rx="15" fill="#16213e"/>
+    <text x="330" y="20" 
+          font-family="Arial, Helvetica, sans-serif" 
+          font-size="14" 
+          font-weight="600" 
+          fill="#EE4C2C" 
+          text-anchor="middle">
+      168 hrs
+    </text>
+  </g>
+  
+  <!-- Decorative Lines -->
+  <line x1="200" y1="150" x2="250" y2="150" stroke="#EE4C2C" stroke-width="2" opacity="0.5"/>
+  <line x1="950" y1="150" x2="1000" y2="150" stroke="#EE4C2C" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Corner Accents -->
+  <line x1="20" y1="20" x2="80" y2="20" stroke="#EE4C2C" stroke-width="3"/>
+  <line x1="20" y1="20" x2="20" y2="80" stroke="#EE4C2C" stroke-width="3"/>
+  
+  <line x1="1120" y1="20" x2="1180" y2="20" stroke="#EE4C2C" stroke-width="3"/>
+  <line x1="1180" y1="20" x2="1180" y2="80" stroke="#EE4C2C" stroke-width="3"/>
+  
+  <line x1="20" y1="280" x2="80" y2="280" stroke="#EE4C2C" stroke-width="3"/>
+  <line x1="20" y1="220" x2="20" y2="280" stroke="#EE4C2C" stroke-width="3"/>
+  
+  <line x1="1120" y1="280" x2="1180" y2="280" stroke="#EE4C2C" stroke-width="3"/>
+  <line x1="1180" y1="220" x2="1180" y2="280" stroke="#EE4C2C" stroke-width="3"/>
+</svg>

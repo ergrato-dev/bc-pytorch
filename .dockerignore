@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_backup
+
+# Cache
+.cache/
+*.egg-info/
+.pytest_cache/
+
+# Data and Models (no copiar al build)
+data/
+checkpoints/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.model
+
+# Outputs
+output/
+results/
+logs/
+*.log
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
+
+# Documentation
+_docs/
+docs/
+
+# Solution folders
+**/solution/
+**/solutions/
+
+# Week-specific ignores
+bootcamp/week-*/data/
+bootcamp/week-*/checkpoints/
+bootcamp/week-*/output/
+bootcamp/week-*/results/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Other
+*.bak
+*.tmp
+node_modules/
+.env
+.env.local
