@@ -53,7 +53,7 @@ week-XX/
 │
 ├── 0-assets/                     # Recursos visuales
 │   ├── README.md                 # Descripción de assets
-│   ├── 01-diagram.png            # Diagramas y gráficos
+│   ├── 01-diagram.svg            # Diagramas y gráficos (SVG)
 │   └── .gitkeep                  # Preservar estructura
 │
 ├── 1-teoria/                     # Material teórico

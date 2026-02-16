@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#e2e8f0" text-anchor="middle">
+    Ecosistema Python
+  </text>
+  
+  <!-- Central Python Logo Circle -->
+  <circle cx="400" cy="260" r="80" fill="#16213e" stroke="#3776AB" stroke-width="4"/>
+  <text x="400" y="250" font-family="system-ui, sans-serif" font-size="24" font-weight="bold" fill="#3776AB" text-anchor="middle">
+    PYTHON
+  </text>
+  <text x="400" y="275" font-family="system-ui, sans-serif" font-size="16" fill="#a0aec0" text-anchor="middle">
+    3.11+
+  </text>
+  
+  <!-- Web Development - Top Left -->
+  <rect x="80" y="100" width="180" height="100" rx="10" fill="#16213e" stroke="#48bb78" stroke-width="3"/>
+  <text x="170" y="130" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#48bb78" text-anchor="middle">
+    🌐 Web
+  </text>
+  <text x="170" y="155" font-family="Courier New, monospace" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    Django
+  </text>
+  <text x="170" y="175" font-family="Courier New, monospace" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    Flask
+  </text>
+  <line x1="260" y1="150" x2="330" y2="220" stroke="#48bb78" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Data Science - Top Right -->
+  <rect x="540" y="100" width="180" height="100" rx="10" fill="#16213e" stroke="#4299e1" stroke-width="3"/>
+  <text x="630" y="130" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#4299e1" text-anchor="middle">
+    📊 Data Science
+  </text>
+  <text x="630" y="155" font-family="Courier New, monospace" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    pandas
+  </text>
+  <text x="630" y="175" font-family="Courier New, monospace" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    NumPy
+  </text>
+  <line x1="540" y1="150" x2="470" y2="220" stroke="#4299e1" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Machine Learning / AI - Bottom Left -->
+  <rect x="80" y="350" width="180" height="100" rx="10" fill="#16213e" stroke="#EE4C2C" stroke-width="3"/>
+  <text x="170" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#EE4C2C" text-anchor="middle">
+    🤖 ML / AI
+  </text>
+  <text x="170" y="405" font-family="Courier New, monospace" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    PyTorch
+  </text>
+  <text x="170" y="425" font-family="Courier New, monospace" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    TensorFlow
+  </text>
+  <line x1="260" y1="400" x2="330" y2="300" stroke="#EE4C2C" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Automation - Bottom Right -->
+  <rect x="540" y="350" width="180" height="100" rx="10" fill="#16213e" stroke="#FFD43B" stroke-width="3"/>
+  <text x="630" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#FFD43B" text-anchor="middle">
+    ⚙️ Automatización
+  </text>
+  <text x="630" y="405" font-family="Courier New, monospace" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    Selenium
+  </text>
+  <text x="630" y="425" font-family="Courier New, monospace" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    Scripts
+  </text>
+  <line x1="540" y1="400" x2="470" y2="300" stroke="#FFD43B" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>

@@ -19,6 +19,14 @@ Guía de imágenes Docker optimizadas para el bootcamp:
 - docker-compose.yml con límites de recursos
 - Comandos de limpieza y mantenimiento
 
+### [workflow-creacion-semanal.md](workflow-creacion-semanal.md)
+Guía paso a paso para crear contenido semanal:
+- Orden óptimo de creación (README → Rúbrica → Teoría → Assets → Prácticas → Proyecto → Recursos → Glosario)
+- Templates completos para cada tipo de contenido
+- Checklists de verificación
+- Tiempos estimados por fase
+- Ejemplos prácticos basados en [bc-javascript-es2023](https://github.com/ergrato-dev/bc-javascript-es2023)
+
 ### docker-guide.md *(Por crear)*
 Guía completa de uso de Docker:
 - Instalación y configuración

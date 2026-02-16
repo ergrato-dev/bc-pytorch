@@ -36,8 +36,8 @@ bootcamp/week-XX/
 ├── Dockerfile                # Imagen Docker para la semana
 ├── docker-compose.yml        # Servicios y configuración
 ├── requirements.txt          # Dependencias Python
-├── 0-assets/                 # Imágenes y diagramas
-│   ├── 01-diagram.png
+├── 0-assets/                 # Imágenes y diagramas (SVG)
+│   ├── 01-diagram.svg
 │   └── README.md
 ├── 1-teoria/                 # Material teórico
 │   ├── 01-concepto.md
@@ -361,7 +361,7 @@ print(tensor)
 
 ### Visualización
 
-![Diagrama Explicativo](../0-assets/01-concept.png)
+![Diagrama Explicativo](../0-assets/01-concept.svg)
 
 ## ✅ Checklist de Verificación
 
@@ -666,25 +666,47 @@ Cada semana se evalúa mediante **3 tipos de evidencia**:
 
 ## Diagramas Incluidos
 
-### 01-architecture-diagram.png
-- **Descripción**: Arquitectura de la red neuronal usada esta semana
-- **Uso**: Teoría, sección "Arquitectura"
-- **Formato**: PNG, 800x600px
+### 01. Nombre del Concepto
+**Archivo**: `01-architecture-diagram.svg`  
+**Usado en**: [1-teoria/01-concepto.md](../1-teoria/01-concepto.md)  
+**Descripción**: Arquitectura de la red neuronal usada esta semana
 
-### 02-data-flow.png
-- **Descripción**: Flujo de datos en el pipeline
-- **Uso**: Proyecto, sección "Pipeline"
-- **Formato**: PNG, 1000x600px
+**Conceptos visualizados**:
+- Componente 1
+- Componente 2
+- Flujo de datos
 
-## Convenciones de Diseño
+---
 
-- **Fondo**: Claro (blanco/gris muy claro)
-- **Colores**: Usar paleta consistente
-  - Primario: #3B82F6 (azul)
-  - Secundario: #10B981 (verde)
-  - Acento: #F59E0B (naranja)
-- **Tipografía**: Sans-serif, legible
-- **Resolución**: Mínimo 800px de ancho
+### 02. Flujo de Datos
+**Archivo**: `02-data-flow.svg`  
+**Usado en**: Proyecto, sección "Pipeline"  
+**Descripción**: Flujo de datos en el pipeline de entrenamiento
+
+**Conceptos visualizados**:
+- Input → Preprocessing
+- Model → Training
+- Output → Evaluation
+
+## Estándares de Diseño
+
+### Colores
+- **Background**: `#1a1a2e` (dark theme)
+- **Texto principal**: `#e2e8f0` (gris claro)
+- **Texto secundario**: `#a0aec0` (gris medio)
+- **Accent PyTorch**: `#EE4C2C` (naranja PyTorch)
+- **Success**: `#48bb78` (verde)
+- **Error**: `#ef4444` (rojo)
+
+### Tipografía
+- **Fuente principal**: `system-ui, sans-serif`
+- **Fuente código**: `Courier, monospace`
+- **Sin degradados**: Colores sólidos únicamente
+
+### Dimensiones
+- **ViewBox**: 800x400 a 800x600 (según complejidad)
+- **Formato**: SVG optimizado
+- **Responsive**: Escalable sin pérdida
 ```
 
 ### Notebooks de Teoría
@@ -823,6 +845,20 @@ _Cheat Sheet Week XX | Bootcamp PyTorch_
 ---
 
 ## 🔄 Workflow de Desarrollo
+
+> 📌 **Para workflow completo y detallado**: Ver [WORKFLOW.md](../WORKFLOW.md) y [_docs/workflow-creacion-semanal.md](../_docs/workflow-creacion-semanal.md)  
+> Incluye orden de creación, templates completos, checklists y ejemplos basados en [bc-javascript-es2023](https://github.com/ergrato-dev/bc-javascript-es2023).
+
+### Resumen del Orden de Creación
+
+1. **README.md** de la semana → Marco general
+2. **rubrica-evaluacion.md** → Criterios de evaluación
+3. **1-teoria/** → Material teórico
+4. **0-assets/** → Assets vinculados (DESPUÉS de teoría)
+5. **2-practicas/** → 3-4 ejercicios guiados
+6. **3-proyecto/** → Proyecto integrador
+7. **4-recursos/** → Recursos completos
+8. **5-glosario/** → Glosario y cheat sheet
 
 ### Para Teoría
 
@@ -1362,7 +1398,7 @@ Incluir en carpetas de recursos semanales:
 - [ ] Material teórico (notebooks + markdown)
 - [ ] Al menos 3-4 prácticas guiadas
 - [ ] Proyecto integrador con README detallado
-- [ ] Assets visuales (diagramas, gráficos)
+- [ ] Assets visuales (diagramas SVG)
 - [ ] Recursos adicionales (papers, videos, links)
 - [ ] Glosario de términos de la semana (README.md)
 - [ ] Cheat Sheet de referencia rápida (cheat-sheet.md)

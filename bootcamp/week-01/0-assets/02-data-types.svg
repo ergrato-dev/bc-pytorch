@@ -1,0 +1,112 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#e2e8f0" text-anchor="middle">
+    Tipos de Datos en Python
+  </text>
+  
+  <!-- int - Integer -->
+  <rect x="50" y="80" width="160" height="140" rx="8" fill="#16213e" stroke="#4299e1" stroke-width="3"/>
+  <text x="130" y="110" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#4299e1" text-anchor="middle">
+    int
+  </text>
+  <text x="130" y="135" font-family="system-ui, sans-serif" font-size="14" fill="#a0aec0" text-anchor="middle">
+    Enteros
+  </text>
+  <text x="130" y="165" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    42
+  </text>
+  <text x="130" y="190" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    -10
+  </text>
+  <text x="130" y="215" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    0
+  </text>
+  
+  <!-- float - Float -->
+  <rect x="240" y="80" width="160" height="140" rx="8" fill="#16213e" stroke="#48bb78" stroke-width="3"/>
+  <text x="320" y="110" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#48bb78" text-anchor="middle">
+    float
+  </text>
+  <text x="320" y="135" font-family="system-ui, sans-serif" font-size="14" fill="#a0aec0" text-anchor="middle">
+    Decimales
+  </text>
+  <text x="320" y="165" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    3.14
+  </text>
+  <text x="320" y="190" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    -2.5
+  </text>
+  <text x="320" y="215" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    0.0
+  </text>
+  
+  <!-- str - String -->
+  <rect x="430" y="80" width="160" height="140" rx="8" fill="#16213e" stroke="#FFD43B" stroke-width="3"/>
+  <text x="510" y="110" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#FFD43B" text-anchor="middle">
+    str
+  </text>
+  <text x="510" y="135" font-family="system-ui, sans-serif" font-size="14" fill="#a0aec0" text-anchor="middle">
+    Cadenas
+  </text>
+  <text x="510" y="165" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    "Hola"
+  </text>
+  <text x="510" y="190" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    'Python'
+  </text>
+  <text x="510" y="215" font-family="Courier New, monospace" font-size="16" fill="#e2e8f0" text-anchor="middle">
+    ""
+  </text>
+  
+  <!-- bool - Boolean -->
+  <rect x="620" y="80" width="160" height="140" rx="8" fill="#16213e" stroke="#EE4C2C" stroke-width="3"/>
+  <text x="700" y="110" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#EE4C2C" text-anchor="middle">
+    bool
+  </text>
+  <text x="700" y="135" font-family="system-ui, sans-serif" font-size="14" fill="#a0aec0" text-anchor="middle">
+    Booleanos
+  </text>
+  <text x="700" y="175" font-family="Courier New, monospace" font-size="16" fill="#48bb78" text-anchor="middle">
+    True
+  </text>
+  <text x="700" y="205" font-family="Courier New, monospace" font-size="16" fill="#ef4444" text-anchor="middle">
+    False
+  </text>
+  
+  <!-- Type Checking Examples -->
+  <rect x="50" y="250" width="700" height="120" rx="8" fill="#16213e" stroke="#a0aec0" stroke-width="2"/>
+  <text x="400" y="280" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#e2e8f0" text-anchor="middle">
+    Verificación de Tipos con type()
+  </text>
+  
+  <text x="70" y="310" font-family="Courier New, monospace" font-size="14" fill="#a0aec0">
+    type(42)
+  </text>
+  <text x="200" y="310" font-family="Courier New, monospace" font-size="14" fill="#4299e1">
+    &lt;class 'int'&gt;
+  </text>
+  
+  <text x="70" y="335" font-family="Courier New, monospace" font-size="14" fill="#a0aec0">
+    type(3.14)
+  </text>
+  <text x="200" y="335" font-family="Courier New, monospace" font-size="14" fill="#48bb78">
+    &lt;class 'float'&gt;
+  </text>
+  
+  <text x="420" y="310" font-family="Courier New, monospace" font-size="14" fill="#a0aec0">
+    type("Hola")
+  </text>
+  <text x="560" y="310" font-family="Courier New, monospace" font-size="14" fill="#FFD43B">
+    &lt;class 'str'&gt;
+  </text>
+  
+  <text x="420" y="335" font-family="Courier New, monospace" font-size="14" fill="#a0aec0">
+    type(True)
+  </text>
+  <text x="560" y="335" font-family="Courier New, monospace" font-size="14" fill="#EE4C2C">
+    &lt;class 'bool'&gt;
+  </text>
+</svg>

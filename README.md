@@ -305,11 +305,23 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📚 Documentación Adicional
 
+### Para Estudiantes
+
+- [🚀 Inicio Rápido](bootcamp/week-01/README.md)
+- [🐳 Guía de Docker](_docs/docker-guide.md)
+
+### Para Contribuidores
+
+- [🔄 Workflow de Creación de Contenido](WORKFLOW.md) - **Orden y metodología para crear semanas**
 - [🤖 Instrucciones de Copilot](.github/copilot-instructions.md)
+- [📖 Estructura del Bootcamp](_docs/estructura-bootcamp.md)
+- [🐳 Docker Images Optimizadas](_docs/docker-images-optimized.md)
 - [🤝 Guía de Contribución](CONTRIBUTING.md)
+
+### Políticas del Proyecto
+
 - [📜 Código de Conducta](CODE_OF_CONDUCT.md)
 - [🔒 Política de Seguridad](SECURITY.md)
-- [🐳 Guía de Docker](_docs/docker-guide.md)
 
 ---
 
